@@ -795,8 +795,31 @@ button, a { transition: var(--transition); }
 
 .copyright > a:is(:hover, :focus) { color: var(--carolina-blue); }
 
+.button-container{
+  display: flex;
+  position: relative;
+  max-width: 1350px;
+  width: 100%;
+  margin: 50px;
+}
 
-
+.kopce button{
+  padding: 10px 5px;
+  position: relative;
+  background: var(--background, var(--carolina-blue));
+  color: var(--color, var(--white));
+  min-width: var(--width, 40px);
+  min-height: var(--height, 40px);
+  padding: 5px 15px;
+  margin: 5px;
+  display: flex;
+  place-items: center;
+  border-radius: var(--radius-14);
+  font-family: var(--ff-nunito);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  overflow: hidden;
+}
 
 
 /*-----------------------------------*\
