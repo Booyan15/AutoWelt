@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Card/Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/detail.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+
+    <header class="header" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Auto Welt logo">
+          </a>
+    
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+    
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Почетна</a>
+              </li>
+    
+              <li>
+                <a href="#featured-car" class="navbar-link" data-nav-link>Автомобили</a>
+              </li>
+    
+              <li>
+                <a href="#" class="navbar-link" data-nav-link>За нас</a>
+              </li>
+    
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Блог</a>
+              </li>
+    
+            </ul>
+          </nav>
+    
+          <div class="header-actions">
+    
+            <div class="header-contact">
+              <a href="tel:+389 78 203 200" class="contact-link">+389 78 203 200</a>
+    
+              <span class="contact-time">Пон - Саб : 08:00 - 16:00 </span>
+            </div>
+    
+            <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+              <ion-icon name="car-outline"></ion-icon>
+    
+              <span id="aria-label-txt">Истражи автомобили</span>
+            </a>
+    
+    
+    
+            <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+              <span class="one"></span>
+              <span class="two"></span>
+              <span class="three"></span>
+            </button>
+    
+          </div>
+    
+        </div>
+      </header>
+    
+<br><br><br>
+
+    <div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+              <img src = "assets/images/car-1.jpg" alt = "shoe image">
+              <img src = "detail/AudiQ8/2.jpg" alt = "shoe image">
+              <img src = "detail/AudiQ8/2.jpg" alt = "shoe image">
+              <img src = "detail/AudiQ8/2.jpg" alt = "shoe image">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src = "assets/images/car-1.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src = "detail/AudiQ8/2.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src = "detail/AudiQ8/2.jpg" alt = "shoe image">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src = "detail/AudiQ8/2.jpg" alt = "shoe image">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- card right -->
+        <div class = "product-content">
+          <h2 class = "product-title">AUDI Q8 S-LINE</h2>
+          <a href = "index.html" class = "product-link"></a>
+          <div class = "product-rating">
+          </div>
+
+          <p class="card-price">
+            Цена на закуп: <strong>440€</strong> / месечно
+          </p>
+
+          <br>
+          <div class = "product-detail">
+            <h2>За автомобилот: </h2>
+            <p>Откријте ги впечатливите спецификации на нашиот најнов модел на автомобил, кој обезбедува перформанси и комфор на највисоко ниво.
+                 Со моќен мотор кој обезбедува високи перформанси на патот и намалување на потрошувачката на гориво, овој автомобил е идеален 
+                 избор за оние кои бараат спортски и економичен воз. Интегрираниот систем за безбедност обезбедува максимална заштита на возачот 
+                 и патниците, со напредни функции како автоматско спречување на судари и систем за препознавање на пешаци. Внатрешниот дизајн 
+                 е рафиниран и модерен, со удобни седишта и просторен интериер што го прави идеален за долги патувања и дневни возења. Со интегрираниот 
+                 систем за инфотејнмент, возачот може лесно да пристапи до различни функции и да ги контролира преку екранот на средниот дел на таблото.
+                  Ова возило ќе ве освои со својата комбинација на перформанси, безбедност и удобност, што го прави идеален избор за вашето следно возење.</p>
+
+                <br><br>
+
+            <ul class="card-list">
+
+                <li class="card-list-item">
+                  <ion-icon name="people-outline"></ion-icon>
+
+                  <span class="card-item-text">5 врати</span>
+                </li>
+
+                <li class="card-list-item">
+                  <ion-icon name="flash-outline"></ion-icon>
+
+                  <span class="card-item-text">Дизел</span>
+                </li>
+
+                <li class="card-list-item">
+                  <ion-icon name="speedometer-outline"></ion-icon>
+
+                  <span class="card-item-text">286 HP</span>
+                </li>
+
+                <li class="card-list-item">
+                  <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                  <span class="card-item-text">Автоматик</span>
+                </li>
+
+              </ul>
+          </div>
+
+          
+          <script src="script.js"></script>
+          
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/detail.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
