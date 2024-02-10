@@ -204,7 +204,7 @@ img{
 
 
 
-.featured-car-card .year {
+    .year {
     font-family: var(--ff-nunito);
     font-size: var(--fs-6);
     font-weight: var(--fw-600);
@@ -212,24 +212,22 @@ img{
     border: 2px dashed hsla(204, 91%, 53%, 0.4);
     border-radius: var(--radius-14);
   }
-  
-  .featured-car-card .card-list {
+  .card-list {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 15px;
+    gap: 5px;
     padding-bottom: 15px;
-    border-bottom: 1px solid hsla(0, 0%, 0%, 0.1);
     margin-bottom: 15px;
   }
   
-  .featured-car-card .card-list-item {
+    .card-list-item {
     display: flex;
     align-items: center;
     gap: 8px;
   }
   
-  .featured-car-card .card-list-item ion-icon {
-    font-size: 20px;
+    .card-list-item ion-icon {
+    font-size: 25px;
     color: var(--carolina-blue);
     --ionicon-stroke-width: 38px;
   }
